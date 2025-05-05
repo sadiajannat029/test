@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour  Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <div class="navbar bg-base-100 shadow-sm px-8 py-4">
+    <div class="navbar-start">
+      <a class="flex items-center gap-2 text-2xl font-bold">
+        <img src="Group 40071 (2).png" alt="logo" class="w-6 h-6" />
+        <span><span class="text-black">Hero</span> <span class="text-orange-500">Travel</span></span>
+      </a>
+    </div>
+   
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 text-gray-600 font-medium">
+        <li><a class="text-orange-500 font-semibold">Home</a></li>
+        <li><a>Packages</a></li>
+        <li><a>Testimonial</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header>
+    <section class="bg-white text-center px-6 py-12">
+        <div class="relative">
+            <div class="hero h-[550px]" style="background-image: url(Group\ 13\ \(1\)\ \(1\).png);">
+              <div class="hero-overlay bg-black bg-opacity-50"></div>
+              <div class="text-center text-neutral-content">
+                <div class="max-w-2xl">
+                  <h1 class="mb-5 text-5xl font-bold text-white">Explore Your Travel</h1>
+                  <p class="mb-5 text-gray-200 text-sm">
+                    Dolor sit amet consectetur. Nullam suspendisse vitae ultrices dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+                  </p>
+        
+                  <div class="flex flex-col md:flex-row justify-center items-center gap-4 bg-white bg-opacity-80 p-4 rounded-xl shadow-lg">
+                    <input type="text" placeholder="Where go" class="input input-bordered w-full max-w-xs" />
+                    <select class="select select-bordered w-full max-w-xs">
+                      <option disabled selected>When</option>
+                      <option>Today</option>
+                      <option>This Week</option>
+                    </select>
+                    <select class="select select-bordered w-full max-w-xs">
+                      <option disabled selected>Select Type</option>
+                      <option>Adventure</option>
+                      <option>Relaxation</option>
+                      <option>City Tour</option>
+                    </select>
+                    <button class="btn bg-orange-500 hover:bg-orange-600 text-white px-6">
+                      🔍 Find Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="bg-base-100 text-base-content font-sans p-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+          <!-- Text Content -->
+          <div>
+            <h2 class="text-4xl font-bold mb-4 text-blue-900">Our Popular Tours</h2>
+            <p class="mb-4 text-blue-800">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+      
+            <ul class="list-disc pl-5 space-y-2 text-blue-800 mb-4">
+              <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at.</li>
+              <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+              <li>Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+            </ul>
+      
+            <p class="text-blue-800 mb-6">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitants adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+      
+            <button class="btn bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg">Read More</button>
+          </div>
+      
+          <!-- Image Content -->
+          <div>
+            <img src="plans.png" alt="Mountain Tour" class="rounded-2xl shadow-xl w-full h-auto object-cover">
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="bg-white text-center px-6 py-12"> 
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold mb-2">Choose Your Destination</h2>
+            <p class="text-gray-500">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.</p>
+            <p class="text-gray-500">Sodales dictumst nec nibh pellentesque.</p>
+          </section>
+        
+          <!-- Image Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+        
+            <!-- Row 1: Two large images -->
+            <div class="col-span-1 sm:col-span-1 lg:col-span-2">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-60">
+                <img src="maldives.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Maldives</div>
+              </div>
+            </div>
+        
+            <div class="col-span-1 sm:col-span-1 lg:col-span-1">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-60">
+                <img src="indonasia.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Indonesia</div>
+              </div>
+            </div>
+        
+            <!-- Row 2: Three medium images -->
+            <div class="col-span-1 sm:col-span-1 lg:col-span-1">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-48">
+                <img src="srilanka.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Srilanka</div>
+              </div>
+            </div>
+        
+            <div class="col-span-1 sm:col-span-1 lg:col-span-1">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-48">
+                <img src="north_am.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">North America</div>
+              </div>
+            </div>
+        
+            <div class="col-span-1 sm:col-span-1 lg:col-span-1">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-48">
+                <img src="kashmir.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Kashmir</div>
+              </div>
+            </div>
+        
+            <!-- Row 3: Two wide images -->
+            <div class="col-span-1 sm:col-span-1 lg:col-span-2">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-56">
+                <img src="bangladesh.png" class="w-full h-full object-cover" />
+                <div class="underline">
+                    <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Bangladesh</div>
+                </div>
+                
+              </div>
+            </div>
+        
+            <div class="col-span-1 sm:col-span-1 lg:col-span-1">
+              <div class="relative rounded-xl overflow-hidden shadow-md h-56">
+                <img src="bandarban.png" class="w-full h-full object-cover" />
+                <div class="absolute bottom-4 left-4 text-white text-lg font-semibold">Bandarban</div>
+              </div>
+            </div>
+        
+          </div>
+
+    </section>
+    
+  </main>
+  <footer class="bg-base-200 text-base-content py-8">
+    <div class="container mx-auto text-center">
+      <div class="flex justify-center items-center mb-4">
+        <img src="Group 40071 (2).png" alt="Hero Travel Icon" class="w-6 h-6 mr-2" />
+        <h2 class="font-bold text-xl">Hero Travel</h2>
+      </div>
+      <p class="mb-4 text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra, morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam.</p>
+      <div class="flex justify-center space-x-4 mb-4">
+        <a href="#" class="text-gray-600 hover:text-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879v-6.988h-2.54v-2.891h2.54V9.793c0-2.514 1.517-3.891 3.716-3.891 1.081 0 2.227.196 2.546.268v2.814h-1.769c-1.235 0-1.484.592-1.484 1.461v1.929h2.893l-.393 2.891h-2.5V21.88C18.343 21.128 22 16.991 22 12z" />
+          </svg>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+            <path d="M19.633 7.997c.013.175.045.347.045.523 0 5.323-4.084 9.66-9.468 9.66-1.899 0-3.657-.546-5.06-1.495.218.025.43.04.652.04 1.257 0 2.417-.424 3.328-1.124-.825-.016-1.523-.554-1.765-1.297.117.015.233.02.35.02.65 0 1.253-.224 1.728-.597-.805-.015-1.405-.545-1.637-1.291.214.037.443.058.677.058.79 0 1.542-.272 2.134-.767-.641-.01-1.255-.41-1.735-1.028 0 0 1.045.323 2.146.337-.214-.855-.87-1.407-1.658-1.407-.395 0-.783.05-.923.141.641.207 1.322.64 1.707 1.22.995 1.863 2.599 3.174 4.434 3.271-.217-.856-.334-1.75-.334-2.677 0-1.932 1.577-3.509 3.507-3.509 1.022 0 1.957.435 2.62 1.14.402-.134.781-.36 1.126-.629-.133.404-.401.754-.77 1.016z" />
+          </svg>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm5.707 7.293a1 1 0 00-1.414-1.414L12 10.586 8.707 7.293a1 1 0 00-1.414 1.414L10.586 12l-3.293 3.293a1 1 0 101.414 1.414L12 13.414l3.293 3.293a1 1 0 001.414-1.414L13.414 12l3.293-3.293z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm6.597 10.597a1 1 0 00-1.414-1.414l-1.594.479a3 3 0 01-4.242 0l-1.594-.479a1 1 0 00-1.414 1.414l.479 1.594a3 3 0 010 4.242l-.479 1.594a1 1 0 001.414 1.414l1.594-.479a3 3 0 014.242 0l1.594.479a1 1 0 001.414-1.414l-.479-1.594a3 3 0 010-4.242l.479-1.594z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <p class="text-sm text-gray-500">2017, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
